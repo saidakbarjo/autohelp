@@ -536,19 +536,19 @@ table.reports td{ padding:9px 8px 9px 0; border-bottom:1px solid var(--border); 
 
   // 1) Paste the config object from Firebase Console → Project settings → Your apps → Web app.
   var firebaseConfig = {
-    apiKey: "PASTE_API_KEY_HERE",
-    authDomain: "PASTE_PROJECT_ID.firebaseapp.com",
-    projectId: "PASTE_PROJECT_ID",
-    storageBucket: "PASTE_PROJECT_ID.appspot.com",
-    messagingSenderId: "PASTE_SENDER_ID",
-    appId: "PASTE_APP_ID"
+    apiKey: "AIzaSyBbYk5Jxpbl0r7UELJxSogvsbJUs5Dg3lQ",
+    authDomain: "autohelp-170ec.firebaseapp.com",
+    projectId: "autohelp-170ec",
+    storageBucket: "autohelp-170ec.firebasestorage.app",
+    messagingSenderId: "483233971336",
+    appId: "1:483233971336:web:258e228c2061e08c35733d"
   };
 
   // 2) Paste the UID of the ONE admin account you created in
   //    Firebase Console → Authentication → Users. This value only tells the
   //    PAGE whose "Owner" badge to show — the real gate is firestore.rules,
   //    which must contain this exact same UID.
-  var ADMIN_UID = "PASTE_ADMIN_UID_HERE";
+  var ADMIN_UID = "RlsyYVk9URdY0H7OGjK33yyhpVA3";
 
   var app = initializeApp(firebaseConfig);
   var auth = getAuth(app);
